@@ -1,0 +1,144 @@
+
+@media screen and (max-width: 900px){
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+    header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 880px){
+    /* responsivo da hero */
+    .hero-site .txt-hero h1 {
+        margin-top: 220px;
+        font-size: 2.5em;
+        line-height: 45px;
+    }
+    
+    .hero-site .txt-hero p {
+        font-size: 14px;
+    }
+    
+    .hero-site .txt-hero p span {
+        display: inline;
+        font-weight: 800;
+    }
+    
+    .hero-site button{
+        font-size: 18px;
+    }
+    /* responsivo de servicos */
+    
+    .servicos .itens-container{
+        flex-direction: column;
+    }
+    
+    .servicos .itens-container .img-itens img{
+        width: 100%;
+    }
+    
+    .servicos .itens-container .txt-itens p{
+        margin-bottom: 20px;
+    }
+
+    .servicos .itens-container .item-1{
+        order: 1;
+    }
+
+    .servicos .itens-container .item-2{
+        order: 0;
+    }
+    /* responsivo de servicos */
+    .txt-sobre, .icons-contato{
+        display: block;
+        width: 100%;
+    }
+    
+    .sobre .txt-sobre h3 {
+        font-size: 2em;
+        line-height: 40px;
+    }
+    
+    .sobre .txt-sobre p{
+        margin-bottom: 40px;
+    }
+    
+    .sobre .txt-sobre p span {
+        font-weight: 800;
+    }
+    
+    .sobre .icons-contato button{
+        padding: 0 60px;
+        width: 100%;
+    }
+    /* responsivo de paralax */   
+    .paralax h3 {
+        font-size: 2.2em;
+        line-height: 40px;
+    }
+    
+    .paralax p {
+        margin: 20px 0;
+        font-size: 16px;
+    }
+
+    /* responsivo de como-funciona*/
+    .txt-funciona, .instrucoes{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    
+    .como-funciona .txt-funciona h3{
+        font-size: 3em;
+        line-height: 50px;
+    }
+    
+    .como-funciona .txt-funciona {
+        position: static;
+        top: 50%;
+        padding-bottom: 40px;
+    }  
+    .instrucoes .instru-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    /* responsivo de fac*/
+    .duvidas .interface{
+        text-align: center;
+    }
+    
+    .duvidas .txt-duvidas h1{
+        font-size: 2.5em;
+    }
+    
+    .duvidas .txt-duvidas p{
+        font-size: 18px;
+    }
+    
+    section details summary{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    /* responsivo de fac*/
+    
+    /* responsivo de footer*/
+    footer .top-footer button{
+        margin: 0 10px;   
+    }
+    
+    footer .mid-footer a{
+        margin: 15px 0px;
+        
+        display: block;
+        
+    }
+    
+    footer .bottom-footer p{
+        font-size: 14px;
+    }
+    /* responsivo de footer*/
+}
